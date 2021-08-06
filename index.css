@@ -1,37 +1,38 @@
 body{
 	text-align: center;
 	background-image: url('Photos/Gate.jpeg');
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: 100%;
 }
 .background{
 	
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 }
-.conatiner{
-	/*display: grid;*/
-	/*grid-template-columns: 500px;*/
-	/*padding: 50px;*/
-}
+
 .footer{
+	border-radius: 50px;
 	color: white;
 	font-size: 80px;
+	font-family: Arial, Helvetica, sans-serif;
 	background: rgba(0, 0, 0, 0.6);
 	border: solid transparent;
-	/*border-radius: px;*/
 }
-.grid-two{
-	background: navajowhite;
+
+.logo{
+	float: left;
 }
-.grid-three{
-	background: orange;
+
+.pos{
+	position: absolute;
+	top: 70px;
+	left: 400px;
 }
-.grid-four{
-	background: black;
-	color: white;
-}
-.grid-five{
-	background: navajowhite;
-}
-.grid-six{
-	background: orange;
+
+.fo{
+	margin-top: 25px;
+	font-size: 20px;
+	left: 240px;
 }
