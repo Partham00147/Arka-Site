@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+}
+.background{
+	background-image: url('Photos/Gate.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.conatiner{
+	/*display: grid;*/
+	/*grid-template-columns: 500px;*/
+	/*padding: 50px;*/
+}
+.footer{
+	color: white;
+	font-size: 150px;
+	background: rgba(0, 0, 0, 0.6);
+	border: solid transparent;
+	/*border-radius: px;*/
+}
+.grid-two{
+	background: navajowhite;
+}
+.grid-three{
+	background: orange;
+}
+.grid-four{
+	background: black;
+	color: white;
+}
+.grid-five{
+	background: navajowhite;
+}
+.grid-six{
+	background: orange;
+}
