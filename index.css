@@ -1,8 +1,9 @@
 body{
 	text-align: center;
+	background-image: url('Photos/Gate.jpeg');
 }
 .background{
-	background-image: url('Photos/Gate.jpeg');
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
